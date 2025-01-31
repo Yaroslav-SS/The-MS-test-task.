@@ -1,0 +1,59 @@
+{
+  "P001" : {
+    "pilotId" : "P001",
+    "monthlyReports" : {
+      "2025-01" : {
+        "totalFlightHours" : 714,
+        "exceeds80Hours" : true,
+        "exceeds36HoursPerWeek" : true,
+        "exceeds8HoursPerDay" : true
+      },
+      "2024-01" : {
+        "totalFlightHours" : 220,
+        "exceeds80Hours" : true,
+        "exceeds36HoursPerWeek" : false,
+        "exceeds8HoursPerDay" : false
+      }
+    }
+  },
+  "P003" : {
+    "pilotId" : "P003",
+    "monthlyReports" : {
+      "2025-01" : {
+        "totalFlightHours" : 474,
+        "exceeds80Hours" : true,
+        "exceeds36HoursPerWeek" : true,
+        "exceeds8HoursPerDay" : true
+      },
+      "2024-01" : {
+        "totalFlightHours" : 220,
+        "exceeds80Hours" : true,
+        "exceeds36HoursPerWeek" : false,
+        "exceeds8HoursPerDay" : false
+      },
+      "2023-01" : {
+        "totalFlightHours" : 479,
+        "exceeds80Hours" : true,
+        "exceeds36HoursPerWeek" : true,
+        "exceeds8HoursPerDay" : true
+      }
+    }
+  },
+  "P002" : {
+    "pilotId" : "P002",
+    "monthlyReports" : {
+      "2025-01" : {
+        "totalFlightHours" : 510,
+        "exceeds80Hours" : true,
+        "exceeds36HoursPerWeek" : true,
+        "exceeds8HoursPerDay" : true
+      },
+      "2023-01" : {
+        "totalFlightHours" : 479,
+        "exceeds80Hours" : true,
+        "exceeds36HoursPerWeek" : true,
+        "exceeds8HoursPerDay" : true
+      }
+    }
+  }
+}
