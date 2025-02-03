@@ -1,7 +1,8 @@
-package services;
+package com.example.task1.services;
 
-import models.Flight;
-import models.Pilot;
+import com.example.task1.models.Flight;
+import com.example.task1.models.Pilot;
+import com.example.task1.services.FileReaderService;
 import org.junit.jupiter.api.Test;
 import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;

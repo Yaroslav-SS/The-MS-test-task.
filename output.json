@@ -1,9 +1,10 @@
 {
   "P001" : {
     "pilotId" : "P001",
+    "pilotName" : "Петр Иванов",
     "monthlyReports" : {
       "2025-01" : {
-        "totalFlightHours" : 714,
+        "totalFlightHours" : 414,
         "exceeds80Hours" : true,
         "exceeds36HoursPerWeek" : true,
         "exceeds8HoursPerDay" : true
@@ -18,9 +19,10 @@
   },
   "P003" : {
     "pilotId" : "P003",
+    "pilotName" : "Алиса Зибер",
     "monthlyReports" : {
       "2025-01" : {
-        "totalFlightHours" : 474,
+        "totalFlightHours" : 294,
         "exceeds80Hours" : true,
         "exceeds36HoursPerWeek" : true,
         "exceeds8HoursPerDay" : true
@@ -41,9 +43,10 @@
   },
   "P002" : {
     "pilotId" : "P002",
+    "pilotName" : "Иннокентий Мазутин",
     "monthlyReports" : {
       "2025-01" : {
-        "totalFlightHours" : 510,
+        "totalFlightHours" : 390,
         "exceeds80Hours" : true,
         "exceeds36HoursPerWeek" : true,
         "exceeds8HoursPerDay" : true

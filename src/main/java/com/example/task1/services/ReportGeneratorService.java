@@ -1,8 +1,8 @@
-package services;
+package com.example.task1.services;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
-import models.FlightTimeReport;
+import com.example.task1.models.FlightTimeReport;
 
 import java.io.File;
 import java.util.Map;
@@ -12,17 +12,15 @@ public class ReportGeneratorService {
     private final XmlMapper xmlMapper;
 
     public ReportGeneratorService() {
-        this.jsonMapper = new ObjectMapper(); // Для генерации JSON
-        this.xmlMapper = new XmlMapper();    // Для генерации XML
+        this.jsonMapper = new ObjectMapper();
+        this.xmlMapper = new XmlMapper();    // для генерации xml, на всякий
     }
-
 
     public void generateJsonReport(Map<String, FlightTimeReport> reports, String filePath) throws Exception {
         jsonMapper.writerWithDefaultPrettyPrinter().writeValue(new File(filePath), reports);
-    }  // Генерация JSON с дополнительной информацией о полетах
-
+    }
 
     public void generateXmlReport(Map<String, FlightTimeReport> reports, String filePath) throws Exception {
         xmlMapper.writerWithDefaultPrettyPrinter().writeValue(new File(filePath), reports);
-    }   // Генерация XML файла
+    }   // Генерация XML файла, на всякий
 }

@@ -2,8 +2,8 @@
   {
     "aircraftType": "Boeing 737",
     "flightNumber": "AA321",
-    "departureTime": "2025-01-01T08:00:00",
-    "arrivalTime": "2025-01-01T12:00:00",
+    "departureTime": "2025-01-01T08:00:00+00:00",
+    "arrivalTime": "2025-01-01T12:00:00+02:00",
     "departureAirport": "JFK",
     "destinationAirport": "LAX",
     "crewIds": ["P001", "P002"]
@@ -11,8 +11,8 @@
   {
     "aircraftType": "Airbus A320",
     "flightNumber": "BA475",
-    "departureTime": "2025-01-02T10:00:00",
-    "arrivalTime": "2025-01-02T14:30:00",
+    "departureTime": "2025-01-02T10:00:00+00:00",
+    "arrivalTime": "2025-01-02T14:30:00+00:00",
     "departureAirport": "LAX",
     "destinationAirport": "ORD",
     "crewIds": ["P002"]
@@ -20,8 +20,8 @@
   {
     "aircraftType": "Airbus A321",
     "flightNumber": "CA789",
-    "departureTime": "2025-01-03T09:06:00",
-    "arrivalTime": "2025-01-03T17:00:00",
+    "departureTime": "2025-01-03T09:06:00+00:00",
+    "arrivalTime": "2025-01-03T17:00:00+03:00",
     "departureAirport": "ORD",
     "destinationAirport": "JFK",
     "crewIds": ["P001", "P003"]
@@ -29,8 +29,8 @@
   {
     "aircraftType": "Boeing 736",
     "flightNumber": "AA124",
-    "departureTime": "2024-01-01T08:21:00",
-    "arrivalTime": "2024-01-01T12:01:00",
+    "departureTime": "2024-01-01T08:21:00+00:00",
+    "arrivalTime": "2024-01-01T12:01:00+00:00",
     "departureAirport": "JFQ",
     "destinationAirport": "LAQ",
     "crewIds": ["P001", "P003"]
@@ -38,8 +38,8 @@
   {
     "aircraftType": "Airbus A321A",
     "flightNumber": "CA733",
-    "departureTime": "2023-01-03T09:01:00",
-    "arrivalTime": "2023-01-03T17:00:00",
+    "departureTime": "2023-01-03T09:01:00+00:00",
+    "arrivalTime": "2023-01-03T17:00:00+00:00",
     "departureAirport": "ORD",
     "destinationAirport": "JFK",
     "crewIds": ["P002", "P003"]

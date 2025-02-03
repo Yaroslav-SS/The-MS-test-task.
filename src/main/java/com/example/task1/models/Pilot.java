@@ -1,8 +1,8 @@
-package models;
+package com.example.task1.models;
 
 public class Pilot {
-    private String id; // id пилота
-    private String name; // имя пилота
+    private String id;
+    private String name;
 
     public Pilot() {
     }
